@@ -22,7 +22,7 @@ Este script foi desenvolvido para realizar o **rollout completo** de atualiza√ß√
 Para executar o script direto do terminal:
 
 ```bash
-sudo wget --inet4-only -O- https://raw.githubusercontent.com/CarloseOldenburg/updater/refs/heads/main/rollout.sh | bash
+sudo wget --inet4-only -O- https://raw.githubusercontent.com/CarloseOldenburg/Rollout-iFood/refs/heads/main/rollout-ifood | bash
 ````
 
 ---
