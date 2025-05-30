@@ -17,7 +17,7 @@ echo "Token e cache do Google Chrome limpos."
 
 # Baixar e instalar o vsd-launcher
 echo "Baixando vsd-launcher..." | tee -a $LOG_FILE
-wget https://raw.githubusercontent.com/wilker-santos/VSDImplantUpdater/main/vsd-launcher.sh -O vsd-launcher 2>&1 | tee -a $LOG_FILE
+wget https://raw.githubusercontent.com/CarloseOldenburg/Ferramentas/refs/heads/main/VSD-Launcher -O vsd-launcher 2>&1 | tee -a $LOG_FILE
 sudo chmod 755 vsd-launcher
 sudo mv vsd-launcher /usr/bin/
 
