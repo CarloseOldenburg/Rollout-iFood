@@ -10,7 +10,7 @@ echo "Iniciando instalação..." | tee -a $LOG_FILE
 echo "Limparando token..." | tee -a $LOG_FILE
 sudo rm -f /opt/videosoft/vs-os-interface/log/_database_token*
 sudo rm -f /opt/videosoft/vs-os-interface/log/_database_recovery*
-echo "Token e cache do Google Chrome limpos."
+echo "Token limpos."
 
 
 # Baixar e instalar o vsd-launcher
