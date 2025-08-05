@@ -41,7 +41,7 @@ wget https://cdn.vsd.app/softwares/vsd-payment/homolog/vsd-payment_1.4.0_amd64.d
 # Instalar os novos módulos
 echo "Instalando novos módulos..." | tee -a $LOG_FILE
 sudo dpkg -i vs-os-interface_2.28.4_amd64.deb 2>&1 | tee -a $LOG_FILE
-sudo dpkg -i pinpad-server-installer_linux_3.11.0-beta.deb 2>&1 | tee -a $LOG_FILE
+sudo dpkg -i pinpad-server-installer_linux_3.10.0-beta.deb 2>&1 | tee -a $LOG_FILE
 sudo dpkg -i vsd-payment_1.4.0_amd64.deb 2>&1 | tee -a $LOG_FILE
 
 # Reboot do sistema
